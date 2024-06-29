@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./Rushit.jpg" />
+    <title>Password Generater</title>
+    <link rel="stylesheet" href="./password.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="contenires">
+      <div class="name">
+        <h1>Random <br /><span>Password Generater</span></h1>
+      </div>
+      <div class="password">
+        <input type="text" id="password" placeholder="password" />
+        <img src="./copypng.png" id="copyimg" onclick="copyPassword()" />
+      </div>
+      <div class="submit">
+        <input
+          type="button"
+          id="button"
+          value="Generater Password"
+          onclick="createPassword()"
+        />
+      </div>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
